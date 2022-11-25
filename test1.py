@@ -15,7 +15,7 @@ class TestSum(unittest.TestCase):
         input3=60
         input4=30
         result2=addfunction(input3,input4)
-        self.assertEqual(result2,90)
+        self.assertEqual(result2,92)
 
         input5=160
         input6=40

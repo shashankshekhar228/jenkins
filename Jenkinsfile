@@ -24,5 +24,12 @@ pipeline {
                 sh "python3 test2.py"
             }
         }
+        stage('Demo') {
+            steps {
+                sh "chmod u+x test2.py"
+                sh "python3 test2.py"
+            }
+        }
+        
     } 
 }
